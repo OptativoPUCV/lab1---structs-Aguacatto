@@ -50,8 +50,6 @@ newsize apunta a una dirección válida que no ha sido inicializada con nigún v
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) 
 {
-  int *newArr = (int *)malloc(size * sizeof(int);
-  
   return NULL; 
 }
 
@@ -66,7 +64,7 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[
   int i = 0, j = 0, k = 0;
   while (i < size1 && j < size2)
     {
-      if (arr1[i] < arr2[j])
+      if(arr1[i] < arr2[j])
       {
         result[k] = arr1[i];
       }
@@ -74,8 +72,11 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[
       {
         result[k] = arr2[j];
       }
+      i++;
+      j++;
+      k++;
     }
-}
+  
 
 /*
 Ejercicio 5: Comprobación de Ordenación
@@ -85,10 +86,7 @@ y luego devuelva 1 si el arreglo está ordenado en orden ascendente,
 */
 int checkSorted(int arr[], int size) 
 {
-  for(int i = 0; i < size ; i++)
-    {
-      
-    }
+
   return -2;
 }
 
