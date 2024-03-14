@@ -34,3 +34,17 @@ Thu 14 Mar 2024 08:36:26 PM UTC:
  tests:  0|6
 total_score: 10/70
 f57f3a6
+Thu 14 Mar 2024 08:40:02 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:34:12: error: assignment to expression with array type
+   34 |       temp = arr[i];
+      |            ^
+exercises.c:36:25: error: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   36 |       arr[size - i - 1] = temp;
+      |                         ^
+cc1: all warnings being treated as errors
+Compilation failed
+f5c6798
