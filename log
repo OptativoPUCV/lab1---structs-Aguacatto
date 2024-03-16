@@ -198,3 +198,22 @@ exercises.c:51:50: note: previous definition of ‘newSize’ with type ‘int *
       |                                             ~~~~~^~~~~~~
 Compilation failed
 b799f1b
+Sat 16 Mar 2024 10:50:32 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:53:7: error: ‘newSize’ redeclared as different kind of symbol
+   53 |   int newSize = 0;
+      |       ^~~~~~~
+exercises.c:51:50: note: previous definition of ‘newSize’ with type ‘int *’
+   51 | int *filterEvenNumbers(int arr[], int size, int *newSize)
+      |                                             ~~~~~^~~~~~~
+exercises.c:58:10: error: invalid type argument of unary ‘*’ (have ‘int’)
+   58 |         (*newSize)++;
+      |          ^~~~~~~~
+exercises.c:62:32: error: invalid type argument of unary ‘*’ (have ‘int’)
+   62 |   int *newArr = (int *)malloc((*newSize) * sizeof(int));
+      |                                ^~~~~~~~
+Compilation failed
+6c27d12
