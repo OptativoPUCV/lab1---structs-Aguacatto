@@ -305,3 +305,9 @@ In file included from /nix/store/4pqv2mwdn88h7xvsm7a5zplrd8sxzvw0-glibc-2.35-163
       | ^~~~~
 Compilation failed
 e1a1ced
+Sat 16 Mar 2024 11:26:49 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|1
+total_score: 60/70
+fd3dca2
