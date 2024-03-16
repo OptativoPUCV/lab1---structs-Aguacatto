@@ -250,3 +250,24 @@ Sat 16 Mar 2024 11:04:20 PM UTC:
  tests:  0|3
 total_score: 40/70
 ac7d522
+Sat 16 Mar 2024 11:13:29 PM UTC: 
+ exercises.c | 26 ++++++++++++++++++++++++--
+ 1 file changed, 24 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:124:3: error: ‘esAscendente’ undeclared (first use in this function)
+  124 |   esAscendente = 1, esDescendente = 1;
+      |   ^~~~~~~~~~~~
+exercises.c:124:3: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:124:21: error: ‘esDescendente’ undeclared (first use in this function)
+  124 |   esAscendente = 1, esDescendente = 1;
+      |                     ^~~~~~~~~~~~~
+exercises.c:124:19: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+  124 |   esAscendente = 1, esDescendente = 1;
+      |                   ^
+exercises.c:148:1: error: control reaches end of non-void function [-Werror=return-type]
+  148 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+b770677
