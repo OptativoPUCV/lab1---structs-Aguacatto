@@ -217,3 +217,9 @@ exercises.c:62:32: error: invalid type argument of unary ‘*’ (have ‘int’
       |                                ^~~~~~~~
 Compilation failed
 6c27d12
+Sat 16 Mar 2024 10:50:51 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|4
+total_score: 30/70
+aa44f90
