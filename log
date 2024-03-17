@@ -337,3 +337,17 @@ Sun 17 Mar 2024 01:00:26 AM UTC:
  tests:  0|1
 total_score: 60/70
 54e98e7
+Sun 17 Mar 2024 01:08:25 AM UTC: 
+ exercises.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:200:9: error: unused variable ‘temp’ [-Werror=unused-variable]
+  200 |   Nodo *temp = NULL;
+      |         ^~~~
+exercises.c:199:9: error: unused variable ‘actual’ [-Werror=unused-variable]
+  199 |   Nodo *actual = NULL;
+      |         ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+7147519
