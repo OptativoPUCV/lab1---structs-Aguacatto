@@ -357,3 +357,13 @@ Sun 17 Mar 2024 01:08:56 AM UTC:
  tests:  0|1
 total_score: 60/70
 62ab30f
+Sun 17 Mar 2024 01:13:27 AM UTC: 
+ exercises.c | 13 +------------
+ 1 file changed, 1 insertion(+), 12 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:205:5: error: expected ‘;’ before ‘}’ token
+  205 |     }
+      |     ^
+Compilation failed
+ca009fd
