@@ -402,3 +402,20 @@ Sun 17 Mar 2024 01:18:42 AM UTC:
  tests:  0|0
 total_score: 70/70
 4ac094e
+Sun 17 Mar 2024 01:19:14 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘inicializarLibro’:
+exercises.c:171:55: error: expected ‘)’ before ‘;’ token
+  171 |   strncpy(libro->titulo, titulo, sizeof(libro->titulo);
+      |          ~                                            ^
+      |                                                       )
+exercises.c:174:48: error: expected ‘;’ before ‘}’ token
+  174 |   libro->autor.anioNacimiento = anioNacimiento;
+      |                                                ^
+      |                                                ;
+  175 | }
+      | ~                                               
+Compilation failed
+d398818
