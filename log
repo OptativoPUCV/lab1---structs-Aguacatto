@@ -441,3 +441,9 @@ Sun 17 Mar 2024 01:19:50 AM UTC:
  tests:  0|0
 total_score: 70/70
 df766ff
+Sun 17 Mar 2024 01:21:10 AM UTC: 
+ exercises.c | 21 ++++++---------------
+ 1 file changed, 6 insertions(+), 15 deletions(-)
+ tests:  0|0
+total_score: 70/70
+db86412
